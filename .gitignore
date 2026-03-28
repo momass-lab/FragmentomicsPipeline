@@ -17,7 +17,9 @@ bed data/
 
 # Processed Feature Data (Optional but recommended to ignore to avoid bloat)
 results/
+results_*/
 *.csv
 
 # We explicitly DO NOT ignore ml_output because we want to share the published ML model, log, and images
+ml_output_*/*.csv
 # But we can ignore massive intermediate matrices if they end up there.

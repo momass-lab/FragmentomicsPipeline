@@ -3,7 +3,7 @@
 # ==========================================
 
 directories:
-  input: "data/raw_bed"   # The folder containing your FASTQ, BAM, or BED files.
+  input: "data/raw_bed"   # Name of the folder containing your input data
   output: "results"       # Output intermediate files (extracted features and alignments)
   ml_output: "ml_output"  # Directory for ML plots and reports
 

@@ -1,0 +1,19 @@
+Baseline Condition: Healthy
+
+              precision    recall  f1-score   support
+
+     Healthy       1.00      0.67      0.80         3
+Experimental       0.75      1.00      0.86         3
+
+    accuracy                           0.83         6
+   macro avg       0.88      0.83      0.83         6
+weighted avg       0.88      0.83      0.83         6
+
+
+             Feature  Importance
+global_median_length         1.0
+  global_mean_length         0.0
+   global_prop_short         0.0
+    global_prop_long         0.0
+             abund_+         0.0
+            medlen_+         0.0

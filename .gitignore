@@ -1,0 +1,23 @@
+# Environments
+.env/
+.venv/
+envs/fragmentomics_env/
+__pycache__/
+.snakemake/
+
+# Raw Data (Too big for GitHub)
+data/
+bed data/
+*.bed
+*.bed.gz
+*.bam
+*.fastq
+*.fq
+*.fastq.gz
+
+# Processed Feature Data (Optional but recommended to ignore to avoid bloat)
+results/
+*.csv
+
+# We explicitly DO NOT ignore ml_output because we want to share the published ML model, log, and images
+# But we can ignore massive intermediate matrices if they end up there.

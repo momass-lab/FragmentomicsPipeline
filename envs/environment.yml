@@ -1,0 +1,17 @@
+name: fragmentomics_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - snakemake
+  - pandas
+  - scikit-learn
+  - xgboost
+  - matplotlib
+  - seaborn
+  - bowtie2
+  - samtools
+  - fastp

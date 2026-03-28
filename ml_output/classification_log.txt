@@ -1,0 +1,33 @@
+Baseline Condition: Normal
+
+              precision    recall  f1-score   support
+
+      Normal       0.67      0.80      0.73         5
+Experimental       0.99      0.98      0.98        82
+
+    accuracy                           0.97        87
+   macro avg       0.83      0.89      0.85        87
+weighted avg       0.97      0.97      0.97        87
+
+
+           Feature  Importance
+       medlen_ATRX    0.196025
+   medlen_ARHGEF12    0.093237
+        abund_AFF3    0.064532
+       abund_ROBO2    0.051653
+        abund_NBEA    0.041155
+        abund_TET2    0.040767
+      medlen_NTRK1    0.038844
+       abund_RGPD3    0.028389
+        abund_HIP1    0.023486
+       abund_CSMD3    0.022126
+     abund_FAM135B    0.021032
+       abund_EP400    0.020445
+       abund_PRDM2    0.019058
+       abund_ASXL2    0.018529
+        abund_BCL9    0.017188
+global_mean_length    0.016070
+       abund_SETD2    0.014916
+      abund_CTNND2    0.014544
+         abund_NIN    0.014195
+        abund_POLG    0.014107
